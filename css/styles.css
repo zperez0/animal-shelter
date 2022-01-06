@@ -1,0 +1,13 @@
+.column {
+  width: 300px;
+  float: left;
+}
+
+img {
+  float: left;
+}
+
+.bear h2 {
+  font-style: italic;
+}
+
