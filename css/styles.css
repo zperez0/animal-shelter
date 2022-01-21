@@ -75,7 +75,7 @@ h1, h2 {
   padding: 50px;
   border: solid black;
   border-width: 2px;
-  background-color: #E9ECEF;
+  background-color: #e9ecef98;
   margin-bottom: 10px;
   box-sizing: border-box;
 }
@@ -92,7 +92,7 @@ margin-right: auto;
   padding: 50px;
   border: solid black;
   border-width: 2px;
-  background-color: #E9ECEF;
+  background-color: #e9ecef98;
   margin-bottom: 10px;
   box-sizing: border-box;
 
@@ -110,7 +110,7 @@ margin-right: auto;
   padding: 20px;
   border: solid black;
   border-width: 2px;
-  background-color:#E9ECEF;
+  background-color:#e9ecef98;
   margin-bottom: 10px;
   box-sizing: border-box;
 }
