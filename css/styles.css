@@ -1,36 +1,44 @@
 body {
   margin: 50px;
 }
-h1 {
-text-align: center;
-}
+h1, h2 {
+  text-align: center;
+  font-family: cursive;
+} 
+
 
 .bear {
   width: 100%;
   padding: 50px;
   border: solid black;
-  border-width: 5px;
+  border-width: 2px;
   background-color: #E9ECEF;
   margin-bottom: 10px;
   box-sizing: border-box;
 }
 
 .bear img {
-width: 110% 
+display: block;
+width: 110%;
+margin-left: auto;
+margin-right: auto;
 }
 
 .wolf {
   width: 100%;
   padding: 50px;
   border: solid black;
-  border-width: 5px;
+  border-width: 2px;
   background-color: #E9ECEF;
   margin-bottom: 10px;
   box-sizing: border-box;
 
 }
 .wolf img {
-  width: 90% 
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   }
 
 
@@ -38,14 +46,17 @@ width: 110%
   width: 100%;
   padding: 20px;
   border: solid black;
-  border-width: 5px;
+  border-width: 2px;
   background-color:#E9ECEF;
   margin-bottom: 10px;
   box-sizing: border-box;
 }
 
 .raven img {
-  width: 80% 
+  display: block;
+  width: 80%; 
+  margin-left: auto;
+  margin-right: auto;
   }
 
 .row {
