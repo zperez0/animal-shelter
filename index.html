@@ -9,40 +9,49 @@
   <title>Animal Shelter</title>
 </head>
 <body>
-  <label class = "switch">
-    <input type="checkbox">
-    <span class="slider round"></span>
-  </label>
 
-  <h1>Animal Shelter</h1>
+   <label class = "switch">
+      <input type="checkbox">
+     <span class="slider round"></span>
+    </label>
+
+  <div class="container">
+    <h1>Animal Shelter</h1>
 
   <div class="row">
     <div class="column">
       <div class="bear">
-        <h2>Bear</h2>
+        <h2><span class="clickable-b">Bear</span></h2>
+        
           <img src="img/bear.jpg"/>
-
+          <div id="toggle-bear">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
           </div>
         </div>
+      </div>
     
           <div class="column">
             <div class="wolf">
-              <h2>Wolf</h2>
+              <h2><span class="clickable-w">Wolf</span></h2>
                  <img src="img/wolf.jpg"/>
-    
+
+                 <div id="toggle-wolf">
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
               </div>
-
-                <div class="column">
-                  <div class="raven">
-                     <h2>Raven</h2>
-                      <img src="img/raven.jpg"/>
-    
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                   </div>
-               </div>
             </div>
+
+          <div class="column">
+            <div class="raven">
+              <h2><span class="clickable-r">Raven</span></h2>
+
+              <img src="img/raven.jpg"/>
+
+              <div id="toggle-raven">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

@@ -131,3 +131,15 @@ flex: 20%;
 padding: 10px;
   }
 
+  #toggle-bear, #toggle-wolf, #toggle-raven {
+    display: none;
+  }
+
+  .clickable-b, .clickable-w, .clickable-r  {
+    cursor: pointer;
+    color: #0088cc;
+  }
+
+  .clickable-b, .clickable-w, .clickable-r:hover {
+    text-decoration: underline;
+  }
