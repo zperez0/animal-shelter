@@ -32,5 +32,5 @@ _I created a ficticous animal shelter website in order to demonstrate the use of
 
 _MIT_
 
-Copyright (c) _2022_ _Z Perez_
+Copyright (c) _2022_ _Z Perez & Tony Martinez_
 
